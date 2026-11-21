@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.17",
+  "version": "1.0.0",
+  "id": "81374151-a521-446b-b7f6-2f6735e31524",
+  "developer": {
+    "name": "Lernkartei A1",
+    "websiteUrl": "https://kaffeechino.github.io/lernkartei-a1/",
+    "privacyUrl": "https://kaffeechino.github.io/lernkartei-a1/datenschutz.html",
+    "termsOfUseUrl": "https://kaffeechino.github.io/lernkartei-a1/datenschutz.html"
+  },
+  "name": {
+    "short": "Lernkartei A1",
+    "full": "Lernkartei A1 – Wortschatz und Redemittel"
+  },
+  "description": {
+    "short": "Deutsch A1 lernen: Karteikarten, Quiz und 30 Minuten pro Tag.",
+    "full": "Lernkartei für Deutsch A1 mit zwei Ordnern: aktiver Wortschatz (über 700 Wörter mit Artikel und Plural) und Satzbausteine und Redemittel (über 160 Wendungen). Karteikarten mit Lernkästen, Quiz, Tagesziel von 30 Minuten, Serien, Level und Abzeichen."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2F55D4",
+  "staticTabs": [
+    {
+      "entityId": "lernen",
+      "name": "Lernen",
+      "contentUrl": "https://kaffeechino.github.io/lernkartei-a1/",
+      "websiteUrl": "https://kaffeechino.github.io/lernkartei-a1/",
+      "scopes": [
+        "personal"
+      ]
+    },
+    {
+      "entityId": "about",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity"
+  ],
+  "validDomains": [
+    "kaffeechino.github.io"
+  ]
+}
